@@ -1,5 +1,5 @@
 {
-    "name": "JoritTijsen/yii2-visitors",
+    "name": "jorittijsen/yii2-visitors",
     "description": "This extension gets the visitor information associated with their ip address, including proxy and geographical information and logs the access and checks if it's blacklisted or whitelisted and takes appropriate action.",
     "type": "yii2-extension",
     "keywords": ["yii2", "extension", "access_log", "cidr", "ip tables", "proxy", "tor", "blacklist", "ip address", "security", "hackers"],
@@ -9,6 +9,10 @@
         {
             "name": "John Michael Snook",
             "email": "jsnook@gmail.com"
+        },
+		{
+            "name": "Jorit Tijsen",
+            "email": "Jorit@JoritTijsen.nl"
         }
     ],
     "require": {
@@ -21,7 +25,7 @@
     },
     "autoload": {
         "psr-4": {
-            "johnsnook\\visitors\\": "/src"
+            "jorittijsen\\visitors\\": "/src"
         }
     },
     "repositories": [
