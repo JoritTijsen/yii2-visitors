@@ -21,7 +21,7 @@
         "johnsnook/yii2-parsel": "*",
         "kartik-v/yii2-grid": "@dev",
         "kassner/log-parser": "~1.0",
-        "kop/yii2-scroll-pager": "dev-master"
+        "kop/yii2-scroll-pager": "^2.5.0"
     },
     "autoload": {
         "psr-4": {
