@@ -18,7 +18,7 @@
     "require": {
         "yiisoft/yii2": "*",
         "yiisoft/yii2-bootstrap": "*",
-        "johnsnook/yii2-parsel": "dev-dev",
+        "johnsnook/yii2-parsel": "*",
         "kartik-v/yii2-grid": "@dev",
         "kassner/log-parser": "~1.0",
         "kop/yii2-scroll-pager": "dev-master"
