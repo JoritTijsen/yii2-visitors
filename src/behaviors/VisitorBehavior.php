@@ -8,9 +8,9 @@
  * Description of VisitorBehavior
  */
 
-namespace johnsnook\visitors\behaviors;
+namespace JoritTijsen\visitors\behaviors;
 
-use johnsnook\visitors\models\Visitor;
+use JoritTijsen\visitors\models\Visitor;
 
 /**
  * Adds visitor attributes to application user component
@@ -18,7 +18,7 @@ use johnsnook\visitors\models\Visitor;
 class VisitorBehavior extends \yii\base\Behavior {
 
     /**
-     * @var \johnsnook\visitors\models\Visitor
+     * @var \JoritTijsen\visitors\models\Visitor
      */
     public $visitor;
 

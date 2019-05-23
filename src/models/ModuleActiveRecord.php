@@ -8,7 +8,7 @@
  * Description of ModuleActiveRecord
  */
 
-namespace johnsnook\visitors\models;
+namespace JoritTijsen\visitors\models;
 
 use Yii;
 use yii\behaviors\TimestampBehavior;
@@ -17,11 +17,11 @@ use yii\db\Expression;
 /**
  * A superclass for Visitor et al
  *
- * @property-read \johnsnook\visitors\Module $module This extensions module
+ * @property-read \JoritTijsen\visitors\Module $module This extensions module
  */
 class ModuleActiveRecord extends \yii\db\ActiveRecord {
 
-    /** johnsnook\visitors\Module */
+    /** JoritTijsen\visitors\Module */
     private static $module;
 
     /**
@@ -51,7 +51,7 @@ class ModuleActiveRecord extends \yii\db\ActiveRecord {
     /**
      * This saves me having to remember how to get the damn thing
      *
-     * @return \johnsnook\visitors\Module
+     * @return \JoritTijsen\visitors\Module
      */
     public static function getModule() {
         if (empty(self::$module)) {

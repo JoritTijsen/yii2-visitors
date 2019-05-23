@@ -9,9 +9,10 @@
  * @copyright 2018 John Snook Consulting
  */
 
-namespace johnsnook\visitors\models;
+namespace JoritTijsen\visitors\models;
 
-use johnsnook\visitors\models\Country;
+use JoritTijsen\visitors\models\Country;
+use yii\db\Expression;
 
 /**
  * This is the model class for table "visitor".
@@ -167,6 +168,7 @@ class Visitor extends ModuleActiveRecord {
                     $this->asn = $organs[0];
                     $this->organization = implode(' ', array_slice($organs, 1));
                 }
+                $this->created_at = new Expression('NOW()');
             }
             if (is_null($this->proxy) || $this->proxy === 'ERROR') {
                 $this->proxy = self::proxyCheck($this->ip);

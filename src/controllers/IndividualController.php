@@ -9,11 +9,11 @@
  * @copyright 2018 John Snook Consulting
  */
 
-namespace johnsnook\visitors\controllers;
+namespace JoritTijsen\visitors\controllers;
 
 use Yii;
-use johnsnook\visitors\models\Visitor;
-use johnsnook\visitors\models\VisitsSearch;
+use JoritTijsen\visitors\models\Visitor;
+use JoritTijsen\visitors\models\VisitsSearch;
 use yii\web\NotFoundHttpException;
 use yii\filters\AccessControl;
 

@@ -9,7 +9,7 @@
  * @copyright 2018 John Snook Consulting
  */
 
-namespace johnsnook\visitors\models;
+namespace JoritTijsen\visitors\models;
 
 use yii\behaviors\TimestampBehavior;
 use yii\db\Expression;
@@ -60,9 +60,9 @@ class Visits extends ModuleActiveRecord {
     public static function log($ip, $save = true) {
         $log = new Visits([
             'ip' => $ip,
-            'request' => filter_input(INPUT_SERVER, 'REQUEST_URI'),
-            'referer' => filter_input(INPUT_SERVER, 'HTTP_REFERER'),
-            'user_agent' => filter_input(INPUT_SERVER, 'HTTP_USER_AGENT'),
+            'request' => $_SERVER['REQUEST_URI'] ? $_SERVER['REQUEST_URI'] : 'unknown',
+            'referer' => $_SERVER['HTTP_REFERER'] ? $_SERVER['HTTP_REFERER'] : 'unknown',
+            'user_agent' => $_SERVER['HTTP_USER_AGENT'] ? $_SERVER['HTTP_USER_AGENT'] : 'unknown',
         ]);
         if ($save) {
             $log->save(false);

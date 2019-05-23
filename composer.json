@@ -1,5 +1,5 @@
 {
-    "name": "johnsnook/yii2-visitors",
+    "name": "JoritTijsen/yii2-visitors",
     "description": "This extension gets the visitor information associated with their ip address, including proxy and geographical information and logs the access and checks if it's blacklisted or whitelisted and takes appropriate action.",
     "type": "yii2-extension",
     "keywords": ["yii2", "extension", "access_log", "cidr", "ip tables", "proxy", "tor", "blacklist", "ip address", "security", "hackers"],

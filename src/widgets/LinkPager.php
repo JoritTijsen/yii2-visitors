@@ -1,6 +1,6 @@
 <?php
 
-namespace johnsnook\visitors\widgets;
+namespace JoritTijsen\visitors\widgets;
 
 /**
  * Link Pager Widget.

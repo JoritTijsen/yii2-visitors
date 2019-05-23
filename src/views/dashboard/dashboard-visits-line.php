@@ -8,10 +8,10 @@
  * Description of visits_map
  */
 /* @var $this yii\web\View */
-/* @var $searchModel \johnsnook\visitors\models\VisitorSearch */
+/* @var $searchModel \JoritTijsen\visitors\models\VisitorSearch */
 
 use johnsnook\googlechart\GoogleChart;
-use johnsnook\visitors\models\Visits;
+use JoritTijsen\visitors\models\Visits;
 use yii\db\Expression;
 
 $this->registerJsFile('https://www.gstatic.com/charts/loader.js', ['position' => \yii\web\View::POS_END]);

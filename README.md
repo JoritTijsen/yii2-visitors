@@ -18,13 +18,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```bash
-php composer.phar require --prefer-dist johnsnook/yii2-visitor "*"
+php composer.phar require --prefer-dist JoritTijsen/yii2-visitors "*"
 ```
 
 or add
 
 ```
-"johnsnook/yii2-visitor": "*"
+"JoritTijsen/yii2-visitors": "*"
 ```
 
 to the require section of your `composer.json` file.
@@ -37,7 +37,7 @@ Once the extension is installed, add 'visitor' to the bootstrap section of your 
 ```php
     'bootstrap' => [
         'log',
-        'visitor',
+        'visitors',
     ],
 ```
 
@@ -46,7 +46,7 @@ Then add the bare-minimum module definition
     'modules' => [
         ...
         'visitor' => [
-            'class' => 'johnsnook\visitor\Module',
+            'class' => 'JoritTijsen\visitors\Module',
         ],
         ...
     ],
@@ -54,11 +54,11 @@ Then add the bare-minimum module definition
 
 The routes are defined in the Module file as $urlRules.  These can also be redefined in the module definition.  By default, they look like this for prettyUrls:
 ```php
-    'visitor' => '/visitor/visitor/index',
-    'visitor/index' => '/visitor/visitor/index',
-    'visitor/blowoff' => '/visitor/visitor/blowoff',
-    'visitor/<id>' => 'visitor/visitor/view',
-    'visitor/update/<id>' => 'visitor/visitor/update',
+    'visitor' => '/visitors/visitor/index',
+    'visitor/index' => '/visitors/visitor/index',
+    'visitor/blowoff' => '/visitors/visitor/blowoff',
+    'visitor/<id>' => 'visitors/visitor/view',
+    'visitor/update/<id>' => 'visitors/visitor/update',
 ```
 
 ### 3. Update database schema
@@ -68,7 +68,7 @@ migrations. Make sure that you have properly configured `db` application compone
 and run the following command:
 
 ```bash
-$ php yii migrate/up --migrationPath=@vendor/johnsnook/yii2-visitor/migrations
+$ php yii migrate/up --migrationPath=@vendor/JoritTijsen/yii2-visitors/migrations
 ```
 
 Free API Keys
@@ -98,7 +98,7 @@ When you're done getting all your keys, and deciding that there are some control
     'modules' => [
         ...
         'visitor' => [
-            'class' => 'johnsnook\visitor\Module',
+            'class' => 'JoritTijsen\visitor\Module',
             'ipInfoKey' => 'Not a real key, obviously',
             'proxyCheckKey' => 'Not a real key, obviously',
             'mapquestKey' => 'Not a real key, obviously',

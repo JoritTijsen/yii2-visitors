@@ -8,7 +8,7 @@
  * Description of visits_map
  */
 /* @var $this yii\web\View */
-/* @var $searchModel \johnsnook\visitors\models\VisitorSearch */
+/* @var $searchModel \JoritTijsen\visitors\models\VisitorSearch */
 
 use johnsnook\googlechart\GoogleChart;
 

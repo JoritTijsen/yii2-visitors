@@ -1,6 +1,6 @@
 <?php
 
-namespace johnsnook\visitors\assets;
+namespace JoritTijsen\visitors\assets;
 
 use yii\web\AssetBundle;
 use yii\web\View;

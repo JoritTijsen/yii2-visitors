@@ -9,12 +9,12 @@
  * @copyright 2018 John Snook Consulting
  */
 
-namespace johnsnook\visitors\commands;
+namespace JoritTijsen\visitors\commands;
 
-use johnsnook\visitors\helpers\ProgressBar;
-use johnsnook\visitors\models\Visitor;
-use johnsnook\visitors\models\Visits;
-use johnsnook\visitors\models\VisitorAgent;
+use JoritTijsen\visitors\helpers\ProgressBar;
+use JoritTijsen\visitors\models\Visitor;
+use JoritTijsen\visitors\models\Visits;
+use JoritTijsen\visitors\models\VisitorAgent;
 use Kassner\LogParser\LogParser;
 use yii\helpers\Console;
 

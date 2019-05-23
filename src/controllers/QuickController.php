@@ -9,7 +9,7 @@
  * @copyright 2018 John Snook Consulting
  */
 
-namespace johnsnook\visitors\controllers;
+namespace JoritTijsen\visitors\controllers;
 
 use Yii;
 use yii\filters\AccessControl;

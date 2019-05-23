@@ -8,7 +8,7 @@
  * @license https://github.com/johnsnook/yii2-visitor/LICENSE
  * @copyright 2018 John Snook Consulting
  */
-/* @var $model johnsnook\visitors\models\Visitor */
+/* @var $model JoritTijsen\visitors\models\Visitor */
 
 /**
  * Uses mapquest/osm static map

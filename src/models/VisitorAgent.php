@@ -9,7 +9,7 @@
  * @copyright 2018 John Snook Consulting
  */
 
-namespace johnsnook\visitors\models;
+namespace JoritTijsen\visitors\models;
 
 /**
  * This is the model class for table "visitor_agent", holder of this json structure:

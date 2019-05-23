@@ -9,12 +9,12 @@
  * @copyright 2018 John Snook Consulting
  */
 
-namespace johnsnook\visitors;
+namespace JoritTijsen\visitors;
 
-use johnsnook\visitors\helpers\IpHelper;
-use johnsnook\visitors\models\Visitor;
-use johnsnook\visitors\models\VisitorAgent;
-use johnsnook\visitors\models\Visits;
+use JoritTijsen\visitors\helpers\IpHelper;
+use JoritTijsen\visitors\models\Visitor;
+use JoritTijsen\visitors\models\VisitorAgent;
+use JoritTijsen\visitors\models\Visits;
 use Yii;
 use yii\base\ActionEvent;
 use yii\web\Application;
@@ -131,7 +131,7 @@ class Module extends \yii\base\Module implements \yii\base\BootstrapInterface {
     public function init() {
         parent::init();
         if (Yii::$app instanceof \yii\console\Application) {
-            $this->controllerNamespace = 'johnsnook\visitors\commands';
+            $this->controllerNamespace = 'JoritTijsen\visitors\commands';
         } else {
             Yii::$app->setModule('gridview', ['class' => '\kartik\grid\Module']);
         }
@@ -153,7 +153,7 @@ class Module extends \yii\base\Module implements \yii\base\BootstrapInterface {
             //die(json_encode($app->getUrlManager()->rules));
             /** this allows me to do some importing from my old security system */
             if ($app instanceof \yii\console\Application) {
-                $this->controllerNamespace = 'johnsnook\visitors\commands';
+                $this->controllerNamespace = 'JoritTijsen\visitors\commands';
             } else {
                 $app->on(Application::EVENT_BEFORE_ACTION, [$module, 'portcullis']);
             }
