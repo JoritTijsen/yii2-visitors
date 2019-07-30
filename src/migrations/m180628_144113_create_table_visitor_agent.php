@@ -14,7 +14,7 @@ class m180628_144113_create_table_visitor_agent extends Migration
         $this->createTable('{{%visitor_agent}}', [
             'user_agent' => $this->string()->notNull()->append('PRIMARY KEY'),
             'name' => $this->string(),
-            'info' => $this->json(),
+            'info' => $this->string(),
         ], $tableOptions);
 
         $this->createIndex('va_ua_vl_fkey', '{{%visitor_agent}}', 'user_agent');
