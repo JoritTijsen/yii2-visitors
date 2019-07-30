@@ -18,13 +18,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```bash
-php composer.phar require --prefer-dist JoritTijsen/yii2-visitors "*"
+php composer.phar require --prefer-dist jorittijsen/yii2-visitors "*"
 ```
 
 or add
 
 ```
-"JoritTijsen/yii2-visitors": "*"
+"jorittijsen/yii2-visitors": "*"
 ```
 
 to the require section of your `composer.json` file.
@@ -46,7 +46,7 @@ Then add the bare-minimum module definition
     'modules' => [
         ...
         'visitor' => [
-            'class' => 'JoritTijsen\visitors\Module',
+            'class' => 'jorittijsen\visitors\Module',
         ],
         ...
     ],
@@ -68,7 +68,7 @@ migrations. Make sure that you have properly configured `db` application compone
 and run the following command:
 
 ```bash
-$ php yii migrate/up --migrationPath=@vendor/JoritTijsen/yii2-visitors/migrations
+$ php yii migrate/up --migrationPath=@vendor/jorittijsen/yii2-visitors/migrations
 ```
 
 Free API Keys
@@ -98,7 +98,7 @@ When you're done getting all your keys, and deciding that there are some control
     'modules' => [
         ...
         'visitor' => [
-            'class' => 'JoritTijsen\visitor\Module',
+            'class' => 'jorittijsen\visitor\Module',
             'ipInfoKey' => 'Not a real key, obviously',
             'proxyCheckKey' => 'Not a real key, obviously',
             'mapquestKey' => 'Not a real key, obviously',

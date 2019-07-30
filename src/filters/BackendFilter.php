@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace JoritTijsen\visitors\filters;
+namespace jorittijsen\visitors\filters;
 
 use yii\web\NotFoundHttpException;
 use yii\base\ActionFilter;

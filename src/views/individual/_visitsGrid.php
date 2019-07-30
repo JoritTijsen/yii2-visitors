@@ -8,11 +8,11 @@
  * @license https://github.com/johnsnook/yii2-visitor/LICENSE
  * @copyright 2018 John Snook Consulting
  */
-/* @var $model JoritTijsen\visitors\models\Visitor */
-/* @var $searchModel \JoritTijsen\visitors\models\VisitorSearch */
+/* @var $model jorittijsen\visitors\models\Visitor */
+/* @var $searchModel \jorittijsen\visitors\models\VisitorSearch */
 /* @var $dataProvider \yii\data\ActiveDataProvider */
 
-use JoritTijsen\visitors\models\VisitorAgent;
+use jorittijsen\visitors\models\VisitorAgent;
 use yii\grid\GridView;
 use yii\helpers\Html;
 use yii\helpers\Url;
@@ -20,7 +20,7 @@ use yii\helpers\Url;
 $visitorModule = $searchModel->module;
 
 if ($visitorModule->bootstrapCssVersion === 4) {
-    $pager = 'JoritTijsen\visitors\widgets\LinkPager';
+    $pager = 'jorittijsen\visitors\widgets\LinkPager';
 } else {
     $pager = 'yii\widgets\LinkPager';
 }

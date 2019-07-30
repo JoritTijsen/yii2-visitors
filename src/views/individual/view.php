@@ -13,8 +13,8 @@ use yii\widgets\DetailView;
 use yii\bootstrap\Tabs;
 
 /* @var $this yii\web\View */
-/* @var $model JoritTijsen\visitors\models\Visitor */
-/* @var $searchModel \JoritTijsen\visitors\models\VisitorSearch */
+/* @var $model jorittijsen\visitors\models\Visitor */
+/* @var $searchModel \jorittijsen\visitors\models\VisitorSearch */
 /* @var $dataProvider \yii\data\ActiveDataProvider */
 
 $this->title = empty($model->name) ? $model->ip : $model->name;

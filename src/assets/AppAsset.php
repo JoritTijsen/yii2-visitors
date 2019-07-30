@@ -6,7 +6,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace JoritTijsen\visitors\assets;
+namespace jorittijsen\visitors\assets;
 
 use yii\web\AssetBundle;
 

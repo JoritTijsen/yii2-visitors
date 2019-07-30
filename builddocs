@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
-cd /var/www/JoritTijsen/yii2-visitor
+cd /var/www/jorittijsen/yii2-visitor
 
 APIDOC='/var/www/bas.snooky/vendor/bin/apidoc'
 YII2='/var/www/bas.snooky/vendor/yiisoft/yii2'

@@ -13,10 +13,10 @@
 /* @var $searchModel frontend\models\VisitsSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-use JoritTijsen\visitors\widgets\Panel;
+use jorittijsen\visitors\widgets\Panel;
 use yii\helpers\Html;
 use yii\widgets\DetailView;
-use JoritTijsen\visitors\assets\VisitorAsset;
+use jorittijsen\visitors\assets\VisitorAsset;
 use kartik\grid\GridView;
 use \kop\y2sp\ScrollPager;
 

@@ -14,7 +14,7 @@ use yii\widgets\DetailView;
 //use yii\bootstrap\Tabs;
 
 /* @var $this yii\web\View */
-/* @var $model JoritTijsen\visitors\models\Visitor */
+/* @var $model jorittijsen\visitors\models\Visitor */
 
 $this->title = empty($model->name) ? $model->ip : $model->name;
 $this->params['breadcrumbs'][] = ['label' => 'Visitors', 'url' => ['index']];

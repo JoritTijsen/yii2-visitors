@@ -1,6 +1,6 @@
 <?php
 
-namespace JoritTijsen\visitors\web;
+namespace jorittijsen\visitors\web;
 
 /**
  * @author John Snook

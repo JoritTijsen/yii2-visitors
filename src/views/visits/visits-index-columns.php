@@ -8,7 +8,7 @@
  * @license https://github.com/johnsnook/yii2-visitor/LICENSE
  * @copyright 2018 John Snook Consulting
  */
-use JoritTijsen\visitors\models\VisitorAgent;
+use jorittijsen\visitors\models\VisitorAgent;
 use yii\helpers\Html;
 use yii\helpers\Url;
 

@@ -9,10 +9,10 @@
  * @copyright 2018 John Snook Consulting
  */
 
-namespace JoritTijsen\visitors\controllers;
+namespace jorittijsen\visitors\controllers;
 
 use Yii;
-use JoritTijsen\visitors\models\VisitsSearch;
+use jorittijsen\visitors\models\VisitsSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;

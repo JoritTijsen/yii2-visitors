@@ -8,10 +8,10 @@
  * Description of visits_map
  */
 /* @var $this yii\web\View */
-/* @var $searchModel \JoritTijsen\visitors\models\VisitorSearch */
+/* @var $searchModel \jorittijsen\visitors\models\VisitorSearch */
 
 use johnsnook\googlechart\GoogleChart;
-use JoritTijsen\visitors\models\Visits;
+use jorittijsen\visitors\models\Visits;
 use yii\helpers\Json;
 use yii\db\Expression;
 

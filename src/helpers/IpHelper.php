@@ -8,7 +8,7 @@
  * Description of IpHelper
  */
 
-namespace JoritTijsen\visitors\helpers;
+namespace jorittijsen\visitors\helpers;
 
 class IpHelper extends \yii\helpers\BaseIpHelper {
 

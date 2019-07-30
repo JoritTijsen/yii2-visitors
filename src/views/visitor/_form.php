@@ -12,7 +12,7 @@ use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 
 /* @var $this yii\web\View */
-/* @var $model \JoritTijsen\visitors\models\Visitor */
+/* @var $model \jorittijsen\visitors\models\Visitor */
 /* @var $form yii\widgets\ActiveForm */
 ?>
 

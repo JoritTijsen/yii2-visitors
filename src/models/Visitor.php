@@ -9,9 +9,9 @@
  * @copyright 2018 John Snook Consulting
  */
 
-namespace JoritTijsen\visitors\models;
+namespace jorittijsen\visitors\models;
 
-use JoritTijsen\visitors\models\Country;
+use jorittijsen\visitors\models\Country;
 use yii\db\Expression;
 
 /**

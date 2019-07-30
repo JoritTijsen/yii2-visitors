@@ -1,6 +1,6 @@
 <?php
 
-namespace JoritTijsen\visitors\models;
+namespace jorittijsen\visitors\models;
 
 /**
  * This is the ActiveQuery class for [[Visits]].

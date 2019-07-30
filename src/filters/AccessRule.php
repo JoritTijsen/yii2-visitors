@@ -9,7 +9,7 @@
  * AccessRule
  */
 
-namespace JoritTijsen\visitors\filters;
+namespace jorittijsen\visitors\filters;
 
 use yii\filters\AccessRule as BaseAccessRule;
 
@@ -18,42 +18,42 @@ class AccessRule extends BaseAccessRule {
     /**
      * @var array list of user ip that this rule applies to.
      * If not set or empty, it means this rule applies to all ips.
-     * @see [[\JoritTijsen\visitors\models\Visitor::ip]]
+     * @see [[\jorittijsen\visitors\models\Visitor::ip]]
      */
     public $ip;
 
     /**
      * @var array list of user cities that this rule applies to.
      * If not set or empty, it means this rule applies to all cities.
-     * @see [[\JoritTijsen\visitors\models\Visitor::city]]
+     * @see [[\jorittijsen\visitors\models\Visitor::city]]
      */
     public $city;
 
     /**
      * @var array list of user regions that this rule applies to.
      * If not set or empty, it means this rule applies to all regions.
-     * @see [[\JoritTijsen\visitors\models\Visitor::region]]
+     * @see [[\jorittijsen\visitors\models\Visitor::region]]
      */
     public $region;
 
     /**
      * @var array list of user countries that this rule applies to.
      * If not set or empty, it means this rule applies to all countries.
-     * @see [[\JoritTijsen\visitors\models\Visitor::country]]
+     * @see [[\jorittijsen\visitors\models\Visitor::country]]
      */
     public $country;
 
     /**
      * @var array list of user proxies that this rule applies to.
      * If not set or empty, it means this rule applies to all proxies.
-     * @see [[\JoritTijsen\visitors\models\Visitor::proxy]]
+     * @see [[\jorittijsen\visitors\models\Visitor::proxy]]
      */
     public $proxy;
 
     /**
      * @var array list of user hat_color that this rule applies to.
      * If not set or empty, it means this rule applies to all hat_colors.
-     * @see [[\JoritTijsen\visitors\models\Visitor::proxy]]
+     * @see [[\jorittijsen\visitors\models\Visitor::proxy]]
      */
     public $hat_color;
 

@@ -9,7 +9,7 @@
  * @copyright 2018 John Snook Consulting
  */
 
-namespace JoritTijsen\visitors\helpers;
+namespace jorittijsen\visitors\helpers;
 
 use yii\helpers\Console;
 

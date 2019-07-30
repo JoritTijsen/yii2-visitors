@@ -9,16 +9,16 @@
  * @copyright 2018 John Snook Consulting
  */
 
-namespace JoritTijsen\visitors\models;
+namespace jorittijsen\visitors\models;
 
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use JoritTijsen\visitors\models\Visitor;
+use jorittijsen\visitors\models\Visitor;
 use johnsnook\parsel\ParselQuery;
 
 /**
  * VisitorSearch represents the model behind the search form of
- * [[JoritTijsen\visitors\models\Visitor]].
+ * [[jorittijsen\visitors\models\Visitor]].
  *
  * This is the model class for table "visitor".
  *
