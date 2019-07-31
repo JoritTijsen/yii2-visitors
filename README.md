@@ -68,7 +68,7 @@ migrations. Make sure that you have properly configured `db` application compone
 and run the following command:
 
 ```bash
-$ php yii migrate/up --migrationPath=@vendor/jorittijsen/yii2-visitors/migrations
+$ php yii migrate/up --migration-path=@vendor/jorittijsen/yii2-visitors/src/migrations
 ```
 
 Free API Keys
