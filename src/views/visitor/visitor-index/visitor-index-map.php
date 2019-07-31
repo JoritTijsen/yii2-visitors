@@ -10,7 +10,7 @@
 /* @var $this yii\web\View */
 /* @var $searchModel \jorittijsen\visitors\models\VisitorSearch */
 
-use johnsnook\googlechart\GoogleChart;
+use danielino\googlechart\GoogleChart;
 
 $mapData = $searchModel->mapChartData;
 

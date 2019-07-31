@@ -34,7 +34,7 @@ class Visits extends ModuleActiveRecord {
      * @inheritdoc
      */
     public static function tableName() {
-        return 'visits';
+        return 'visitor_log';
     }
 
     /**

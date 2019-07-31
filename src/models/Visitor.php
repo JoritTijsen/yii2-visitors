@@ -71,6 +71,8 @@ class Visitor extends ModuleActiveRecord {
      */
     public $visit;
 
+    static public $module = null;
+
     /**
      * The table name
      */

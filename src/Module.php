@@ -150,6 +150,7 @@ class Module extends \yii\base\Module implements \yii\base\BootstrapInterface {
         if ($app->hasModule($this->id) && ($module = $app->getModule($this->id)) instanceof Module) {
             $um = $app->getUrlManager();
             $um->addRules($this->urlRules, true);
+            Visitor::$module = $this;
             //die(json_encode($app->getUrlManager()->rules));
             /** this allows me to do some importing from my old security system */
             if ($app instanceof \yii\console\Application) {

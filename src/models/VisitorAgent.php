@@ -321,7 +321,6 @@ class VisitorAgent extends \yii\db\ActiveRecord {
             $data = ["user_agent" => $userAgent];
 
             $agent = new VisitorAgent($data);
-            echo "New agent\n";
 
             $ch = curl_init(self::USER_AGENT_URL);
             curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "POST");

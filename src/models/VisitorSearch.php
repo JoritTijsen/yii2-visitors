@@ -88,7 +88,7 @@ class VisitorSearch extends Visitor {
         $this->load($this->queryParams);
 
         $this->parselQuery = new ParselQuery([
-            'userQuery' => $this->userQuery,
+            'userQuery' => $this->userQuery ? $this->userQuery : '',
             'searchFields' => $this->fields,
             'dbQuery' => Visitor::find()
         ]);
