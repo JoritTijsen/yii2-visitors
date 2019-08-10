@@ -33,6 +33,8 @@ use yii\db\Expression;
  * @property string $proxy
  * @property string $hat_color
  * @property string $hat_rule
+ * @property string $is_blacklisted
+ * @property string $blacklist_reason
  *
  */
 class Visitor extends ModuleActiveRecord {
@@ -91,8 +93,8 @@ class Visitor extends ModuleActiveRecord {
         return [
             [['ip'], 'required'],
             //['ip', 'ip', 'ipv6' => false], // IPv4 address (IPv6 is disabled)
-            [['ip', 'city', 'region', 'asn', 'organization', 'proxy', 'hat_color', 'hat_rule'], 'string'],
-            [['banned'], 'boolean'],
+            [['ip', 'city', 'region', 'asn', 'organization', 'proxy', 'hat_color', 'hat_rule', 'blacklist_reason'], 'string'],
+            [['banned', 'is_blacklisted'], 'boolean'],
             [['created_at', 'updated_at'], 'safe'],
             [['latitude', 'longitude'], 'double'],
         ];

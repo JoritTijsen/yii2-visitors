@@ -13,6 +13,7 @@ class m180628_144021_create_table_visitor extends Migration {
         $this->createTable('{{%visitor}}', [
             'ip' => $this->string()->notNull()->append('PRIMARY KEY'),
             'is_blacklisted' => $this->boolean()->notNull()->defaultValue(false),
+            'blacklist_reason' => $this->text(),
             'created_at' => $this->timestamp()->notNull()->defaultValue('0000-00-00 00:00:00'),
             'updated_at' => $this->timestamp()->notNull()->defaultExpression('CURRENT_TIMESTAMP'),
             'user_id' => $this->integer(),
