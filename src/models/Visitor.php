@@ -41,6 +41,8 @@ class Visitor extends ModuleActiveRecord {
     const HAT_COLOR_NONE = 'None';
     const HAT_COLOR_BLACK = 'Black';
 
+    const BL_MANUAL = 'Manual';
+
     /**
      * @var array The replacements template
      */

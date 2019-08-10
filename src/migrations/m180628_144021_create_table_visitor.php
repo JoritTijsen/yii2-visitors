@@ -22,6 +22,7 @@ class m180628_144021_create_table_visitor extends Migration {
             'city' => $this->string(),
             'region' => $this->string(),
             'country' => $this->string(),
+            'postal' => $this->string(),
             'asn' => $this->string(),
             'latitude' => $this->double(),
             'longitude' => $this->double(),
