@@ -145,6 +145,8 @@ class Visitor extends ModuleActiveRecord {
             'postal' => 'Postal Code',
             'organization' => 'Organization',
             'access_log' => 'Access Log',
+            'is_blacklisted' => 'Is blacklisted?',
+            'blacklist_reason' => 'Blacklist reason',
         ];
     }
 

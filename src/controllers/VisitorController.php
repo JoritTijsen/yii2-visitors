@@ -118,7 +118,7 @@ class VisitorController extends \yii\web\Controller {
      */
     public function actionBlacklist($id) {
         $model = $this->findModel($id);
-        $this->blacklist_reason = Visitor::BL_MANUAL;
+        $model->blacklist_reason = Visitor::BL_MANUAL;
         $model->banned = true;
         $model->save();
         return $this->actionView($id);
